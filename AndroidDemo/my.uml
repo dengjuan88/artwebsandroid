@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_AUv0oKhyEeO2uIhkqlMTvQ" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_RbBHIKh0EeO2uIhkqlMTvQ" clientDependency="_SlxNkKh1EeO2uIhkqlMTvQ" name="Class1">
+    <generalization xmi:id="_KtDk4Kh1EeO2uIhkqlMTvQ" general="_Epe44Kh1EeO2uIhkqlMTvQ"/>
+    <ownedAttribute xmi:id="_UDBEIKh0EeO2uIhkqlMTvQ" name="property1">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UDLcMKh0EeO2uIhkqlMTvQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UDLcMah0EeO2uIhkqlMTvQ" value="1"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:id="_SlxNkKh1EeO2uIhkqlMTvQ" client="_RbBHIKh0EeO2uIhkqlMTvQ" supplier="_RCs4UKh1EeO2uIhkqlMTvQ" contract="_RCs4UKh1EeO2uIhkqlMTvQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Epe44Kh1EeO2uIhkqlMTvQ" name="Class2">
+    <ownedOperation xmi:id="_W3aB4Kh1EeO2uIhkqlMTvQ" name="Operation_1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_RCs4UKh1EeO2uIhkqlMTvQ" name="Interface1"/>
+</uml:Model>

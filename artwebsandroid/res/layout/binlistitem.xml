@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <TextView android:id="@+id/first"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:textSize="22dp"/> 
+        <TextView android:id="@+id/second"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:textColor="#FFFFFFFF"
+            android:visibility="gone"
+            android:textSize="22dp"/> 
+       <TextView android:id="@+id/findkey"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:textColor="#FFFFFFFF"
+            android:visibility="gone"
+            android:textSize="22dp"/> 
+</LinearLayout>

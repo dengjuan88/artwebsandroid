@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/listButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  
+        android:text="列表"
+        />
+    
+    <Button 
+        android:id="@+id/installApkButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  
+        android:text="安装更新包"
+        />
+    
+    <Button 
+        android:id="@+id/uiButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  
+        android:text="测试2"
+        />
+
+</LinearLayout>

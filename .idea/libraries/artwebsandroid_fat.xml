@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="artwebsandroid_fat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/artwebsandroid/artwebsandroid_fat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

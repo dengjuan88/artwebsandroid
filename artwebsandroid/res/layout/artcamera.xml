@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<SurfaceView
+        android:id="@+id/video_view"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="fill_parent" />
+	<ImageView 
+	    android:id="@+id/image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:src="@drawable/mic"/>
+    <TextView
+        android:id="@+id/video_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="22dp"
+        android:textColor="#ffff0000"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

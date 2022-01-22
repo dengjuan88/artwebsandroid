@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/cnameTView"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip" />
+    <EditText 
+            android:id="@+id/nameETxt"
+            android:layout_height="50dip"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="10dip"/>
+     <TextView
+        android:id="@+id/unitTView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+      	android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" />
+
+</TableRow>

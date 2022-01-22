@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@color/white">
+    <LinearLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center">
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/icoImageView"
+                android:visibility="gone"
+                android:src="@drawable/menu_default_icon"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleTextView"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="10dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/arrowsImageView"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:src="@drawable/ico_go"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/valueTextView"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@+id/arrowsImageView"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/lineImageView"
+            android:layout_marginLeft="20dp"
+            android:background="#ffc0c0c0"
+            android:layout_below="@id/titleLayout"
+            android:layout_alignParentRight="true"/>
+</RelativeLayout>
